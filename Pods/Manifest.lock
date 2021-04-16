@@ -1,0 +1,22 @@
+PODS:
+  - TRULoging (0.1.0):
+    - TRUNeteorking
+  - TRUNeteorking (0.1.0)
+
+DEPENDENCIES:
+  - TRULoging (from `Lib/TRULoging`)
+  - TRUNeteorking (from `Lib/TRUNeteorking`)
+
+EXTERNAL SOURCES:
+  TRULoging:
+    :path: Lib/TRULoging
+  TRUNeteorking:
+    :path: Lib/TRUNeteorking
+
+SPEC CHECKSUMS:
+  TRULoging: d45b8adccb85223df5530cacbfd601071b1e1e0f
+  TRUNeteorking: 6237c698d04f16803f1206657175b86d0ec38de7
+
+PODFILE CHECKSUM: 5e8babf42b80af474d27e7fa2a5116de1338172e
+
+COCOAPODS: 1.9.1

@@ -1,0 +1,6 @@
+framework module TRUNeteorking {
+  umbrella header "TRUNeteorking-umbrella.h"
+
+  export *
+  module * { export * }
+}

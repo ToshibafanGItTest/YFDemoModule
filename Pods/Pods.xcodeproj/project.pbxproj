@@ -1,0 +1,837 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AA7B7060B4BD97C1CA7798E03FD56E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D55F772B473D2166926D1ECD9D7FE6 /* Foundation.framework */; };
+		0D3F738F54113FC07D1A35096C5FBC2D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2C7129D4B997985FAB39B6528D60E0 /* ReplaceMe.m */; };
+		1187A5895F817BFBB453ACD01AC71BF7 /* TRUNeteorking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A3082ABF388768532FF71F49C744364 /* TRUNeteorking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		204FA113A552E1E1ADE34BF05FC00C77 /* TRULoging-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 815E8B970526862D87CA2BB37542101B /* TRULoging-dummy.m */; };
+		306A72E7BEB891F8181DD4E0892FA9ED /* TRUNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 87480740756BFBC11334ACA57BCF2281 /* TRUNetworking.m */; };
+		37C79F8F19CEF1E5E6486424A348FF13 /* TRUNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A3CF8F7015DA2684C1646B4A09110D3 /* TRUNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42723B1E76AE4F1752EBF7E2F97759A5 /* TRULoging-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7973A4A3805AB902314F1077A913EAF5 /* TRULoging-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85F68F07CF346FC750F6D22D82E018A5 /* TRUNeteorking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7C578CAA8372E5D37758C610D6A484 /* TRUNeteorking-dummy.m */; };
+		B2ABEA029F6C9198EC6750458FEF5F7A /* Pods-YFDemoModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 258A2D08FC64AEA2987B224416CA7437 /* Pods-YFDemoModule-dummy.m */; };
+		CB8BD895C616F9BBA1BD278C5F63383A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D55F772B473D2166926D1ECD9D7FE6 /* Foundation.framework */; };
+		E72FF751A06EC18EDABA3463967F99DE /* TRUNeteorking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C587EF731B4D6F428DBE231ACE1F035A /* TRUNeteorking.framework */; };
+		F123B7933CD6A1CEACC8EAAC1D454C9E /* Pods-YFDemoModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BCA94193DD05C508289BB00967422BC8 /* Pods-YFDemoModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4EC3069587B79A9FC1A556C55A67CA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D55F772B473D2166926D1ECD9D7FE6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0BF29AB73DF570BED51E6ACB0552888B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96578A933CBA9F75E3605ED5DA70DC9A;
+			remoteInfo = TRULoging;
+		};
+		A147863B2CEA866ADD04F8443999E643 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27759DBAE2DB32B51FE3CFCB62B3E90B;
+			remoteInfo = TRUNeteorking;
+		};
+		EA164A8F0874ED26F6F5348FBC41BD0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27759DBAE2DB32B51FE3CFCB62B3E90B;
+			remoteInfo = TRUNeteorking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		039FF6BBDACD7D6A971AC75F8E090D41 /* TRUNeteorking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TRUNeteorking.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0A4EE012E41C302575673C25CBC67B08 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		137214C35F46AA897B49E790E0D4FB36 /* TRULoging.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TRULoging.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		18D55F772B473D2166926D1ECD9D7FE6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1E428F1C66EF7901759DB773AEF051B1 /* TRULoging-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TRULoging-Info.plist"; sourceTree = "<group>"; };
+		250B84000E47DB86C01FB089F897A695 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		258A2D08FC64AEA2987B224416CA7437 /* Pods-YFDemoModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YFDemoModule-dummy.m"; sourceTree = "<group>"; };
+		301459ADA2EDF9899EBE29870ACD4549 /* Pods-YFDemoModule-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YFDemoModule-frameworks.sh"; sourceTree = "<group>"; };
+		316A648F1A987B54282415822EFE5115 /* TRUNeteorking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TRUNeteorking.modulemap; sourceTree = "<group>"; };
+		35DA46EA11388D1CAE290D13AECA9C0B /* TRUNeteorking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TRUNeteorking-Info.plist"; sourceTree = "<group>"; };
+		58F8FF101C83BD3D35EF3EE2EEE69374 /* Pods-YFDemoModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YFDemoModule-Info.plist"; sourceTree = "<group>"; };
+		5C7C578CAA8372E5D37758C610D6A484 /* TRUNeteorking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TRUNeteorking-dummy.m"; sourceTree = "<group>"; };
+		5D2C7129D4B997985FAB39B6528D60E0 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = TRULoging/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		6E0FE3DA5ADA3D11AD926DE3F2F96E13 /* Pods-YFDemoModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YFDemoModule.debug.xcconfig"; sourceTree = "<group>"; };
+		7973A4A3805AB902314F1077A913EAF5 /* TRULoging-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TRULoging-umbrella.h"; sourceTree = "<group>"; };
+		815E8B970526862D87CA2BB37542101B /* TRULoging-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TRULoging-dummy.m"; sourceTree = "<group>"; };
+		849CCA2C85F49C4F2BFCBEB8BACFB521 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		87480740756BFBC11334ACA57BCF2281 /* TRUNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TRUNetworking.m; path = TRUNeteorking/Classes/TRUNetworking.m; sourceTree = "<group>"; };
+		9A3082ABF388768532FF71F49C744364 /* TRUNeteorking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TRUNeteorking-umbrella.h"; sourceTree = "<group>"; };
+		9A3CF8F7015DA2684C1646B4A09110D3 /* TRUNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TRUNetworking.h; path = TRUNeteorking/Classes/TRUNetworking.h; sourceTree = "<group>"; };
+		9BAC000A5747753C9E56FBFB3D0E2E16 /* TRUNeteorking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TRUNeteorking-prefix.pch"; sourceTree = "<group>"; };
+		9BCAFA8AC802C22DB1C266094E1AD782 /* TRULoging-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TRULoging-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4641027C5B90C07CCF585EE525780C2 /* Pods_YFDemoModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YFDemoModule.framework; path = "Pods-YFDemoModule.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB74986EA6033BA01FCE1F40157484B8 /* Pods-YFDemoModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YFDemoModule.release.xcconfig"; sourceTree = "<group>"; };
+		B4F9FB9E594AB4E3ACCDFE4C319DC5D4 /* TRUNeteorking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TRUNeteorking.release.xcconfig; sourceTree = "<group>"; };
+		B6D75B43BFBC066C5040B7742CE32243 /* TRULoging.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TRULoging.modulemap; sourceTree = "<group>"; };
+		BA70A177E5CAA8065C6E3C2028AB119E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BCA94193DD05C508289BB00967422BC8 /* Pods-YFDemoModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YFDemoModule-umbrella.h"; sourceTree = "<group>"; };
+		C37922AE6D897E85E41EEC1E1C020767 /* TRUNeteorking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TRUNeteorking.framework; path = TRUNeteorking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C564F9CE3A84BF54F2E9C4C60EEE5B16 /* Pods-YFDemoModule-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YFDemoModule-acknowledgements.plist"; sourceTree = "<group>"; };
+		C587EF731B4D6F428DBE231ACE1F035A /* TRUNeteorking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TRUNeteorking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D60E575DE10F8E85D8707CB3B5D64BB4 /* Pods-YFDemoModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YFDemoModule.modulemap"; sourceTree = "<group>"; };
+		D8ECFA483C1E565EE36DDD81E10026C4 /* TRULoging.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TRULoging.debug.xcconfig; sourceTree = "<group>"; };
+		ED2AD63948B5C5B96A0BAA334DFCA779 /* TRULoging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TRULoging.framework; path = TRULoging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F296AEB5516573774C9958857E0AB1B8 /* TRULoging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TRULoging.release.xcconfig; sourceTree = "<group>"; };
+		F783AA27D0773E1630C7C204CF93CC44 /* TRUNeteorking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TRUNeteorking.debug.xcconfig; sourceTree = "<group>"; };
+		FB08C63DCCBA6E0CCA15FAEF7311D7BD /* Pods-YFDemoModule-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YFDemoModule-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAD7781F250E7B5B814EA753A89C7969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB8BD895C616F9BBA1BD278C5F63383A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4C45BF7ECE996983C2CFA1BFEED3841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4EC3069587B79A9FC1A556C55A67CA5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4D8809BCF3D85442C977AB531696060 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA7B7060B4BD97C1CA7798E03FD56E1 /* Foundation.framework in Frameworks */,
+				E72FF751A06EC18EDABA3463967F99DE /* TRUNeteorking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1ADDCBBDAE5595919796DD0C4D49045F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				18D55F772B473D2166926D1ECD9D7FE6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		29EB0C27E8E0BF82D1EFE8D6C8F894CE /* Pods-YFDemoModule */ = {
+			isa = PBXGroup;
+			children = (
+				D60E575DE10F8E85D8707CB3B5D64BB4 /* Pods-YFDemoModule.modulemap */,
+				FB08C63DCCBA6E0CCA15FAEF7311D7BD /* Pods-YFDemoModule-acknowledgements.markdown */,
+				C564F9CE3A84BF54F2E9C4C60EEE5B16 /* Pods-YFDemoModule-acknowledgements.plist */,
+				258A2D08FC64AEA2987B224416CA7437 /* Pods-YFDemoModule-dummy.m */,
+				301459ADA2EDF9899EBE29870ACD4549 /* Pods-YFDemoModule-frameworks.sh */,
+				58F8FF101C83BD3D35EF3EE2EEE69374 /* Pods-YFDemoModule-Info.plist */,
+				BCA94193DD05C508289BB00967422BC8 /* Pods-YFDemoModule-umbrella.h */,
+				6E0FE3DA5ADA3D11AD926DE3F2F96E13 /* Pods-YFDemoModule.debug.xcconfig */,
+				AB74986EA6033BA01FCE1F40157484B8 /* Pods-YFDemoModule.release.xcconfig */,
+			);
+			name = "Pods-YFDemoModule";
+			path = "Target Support Files/Pods-YFDemoModule";
+			sourceTree = "<group>";
+		};
+		2AFF2260B8230E50817D063E5597444F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6D75B43BFBC066C5040B7742CE32243 /* TRULoging.modulemap */,
+				815E8B970526862D87CA2BB37542101B /* TRULoging-dummy.m */,
+				1E428F1C66EF7901759DB773AEF051B1 /* TRULoging-Info.plist */,
+				9BCAFA8AC802C22DB1C266094E1AD782 /* TRULoging-prefix.pch */,
+				7973A4A3805AB902314F1077A913EAF5 /* TRULoging-umbrella.h */,
+				D8ECFA483C1E565EE36DDD81E10026C4 /* TRULoging.debug.xcconfig */,
+				F296AEB5516573774C9958857E0AB1B8 /* TRULoging.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/TRULoging";
+			sourceTree = "<group>";
+		};
+		482612C943B84B98BE6F5D3B5934B943 /* TRULoging */ = {
+			isa = PBXGroup;
+			children = (
+				5D2C7129D4B997985FAB39B6528D60E0 /* ReplaceMe.m */,
+				86473A3262A7A3B6B0061FEE31BB690D /* Pod */,
+				2AFF2260B8230E50817D063E5597444F /* Support Files */,
+			);
+			name = TRULoging;
+			path = ../Lib/TRULoging;
+			sourceTree = "<group>";
+		};
+		55909A3E04D0D0E77DF34904F65B5A50 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BA70A177E5CAA8065C6E3C2028AB119E /* LICENSE */,
+				849CCA2C85F49C4F2BFCBEB8BACFB521 /* README.md */,
+				039FF6BBDACD7D6A971AC75F8E090D41 /* TRUNeteorking.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7D3C14FEC970828A43FFA2A6B017B976 /* TRUNeteorking */ = {
+			isa = PBXGroup;
+			children = (
+				9A3CF8F7015DA2684C1646B4A09110D3 /* TRUNetworking.h */,
+				87480740756BFBC11334ACA57BCF2281 /* TRUNetworking.m */,
+				55909A3E04D0D0E77DF34904F65B5A50 /* Pod */,
+				A6EC593E64DB97C7CE4E4B7AFE241E7C /* Support Files */,
+			);
+			name = TRUNeteorking;
+			path = ../Lib/TRUNeteorking;
+			sourceTree = "<group>";
+		};
+		86473A3262A7A3B6B0061FEE31BB690D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0A4EE012E41C302575673C25CBC67B08 /* LICENSE */,
+				250B84000E47DB86C01FB089F897A695 /* README.md */,
+				137214C35F46AA897B49E790E0D4FB36 /* TRULoging.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9838FAB11E6B988DA031B929FF101EC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4641027C5B90C07CCF585EE525780C2 /* Pods_YFDemoModule.framework */,
+				ED2AD63948B5C5B96A0BAA334DFCA779 /* TRULoging.framework */,
+				C37922AE6D897E85E41EEC1E1C020767 /* TRUNeteorking.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A645ED8634F0D9B19BDE932FA0B0D0E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				29EB0C27E8E0BF82D1EFE8D6C8F894CE /* Pods-YFDemoModule */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A6EC593E64DB97C7CE4E4B7AFE241E7C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				316A648F1A987B54282415822EFE5115 /* TRUNeteorking.modulemap */,
+				5C7C578CAA8372E5D37758C610D6A484 /* TRUNeteorking-dummy.m */,
+				35DA46EA11388D1CAE290D13AECA9C0B /* TRUNeteorking-Info.plist */,
+				9BAC000A5747753C9E56FBFB3D0E2E16 /* TRUNeteorking-prefix.pch */,
+				9A3082ABF388768532FF71F49C744364 /* TRUNeteorking-umbrella.h */,
+				F783AA27D0773E1630C7C204CF93CC44 /* TRUNeteorking.debug.xcconfig */,
+				B4F9FB9E594AB4E3ACCDFE4C319DC5D4 /* TRUNeteorking.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/TRUNeteorking";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				FE20075E7F099CC3C53F4B4E2CA08F53 /* Development Pods */,
+				D0B4AA4EE73B9C62637F87E960F42996 /* Frameworks */,
+				9838FAB11E6B988DA031B929FF101EC5 /* Products */,
+				9A645ED8634F0D9B19BDE932FA0B0D0E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D0B4AA4EE73B9C62637F87E960F42996 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C587EF731B4D6F428DBE231ACE1F035A /* TRUNeteorking.framework */,
+				1ADDCBBDAE5595919796DD0C4D49045F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE20075E7F099CC3C53F4B4E2CA08F53 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				482612C943B84B98BE6F5D3B5934B943 /* TRULoging */,
+				7D3C14FEC970828A43FFA2A6B017B976 /* TRUNeteorking */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3B442AE6AF479CAB8D426CB662B01A1C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F123B7933CD6A1CEACC8EAAC1D454C9E /* Pods-YFDemoModule-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8417AAF15CE3C7BFCC27CDADB8CC99F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42723B1E76AE4F1752EBF7E2F97759A5 /* TRULoging-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93ECAF92CF1187623486ADBFE3EA5F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1187A5895F817BFBB453ACD01AC71BF7 /* TRUNeteorking-umbrella.h in Headers */,
+				37C79F8F19CEF1E5E6486424A348FF13 /* TRUNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		27759DBAE2DB32B51FE3CFCB62B3E90B /* TRUNeteorking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CAF74C7CFC0840DB728297C84B9F873 /* Build configuration list for PBXNativeTarget "TRUNeteorking" */;
+			buildPhases = (
+				A93ECAF92CF1187623486ADBFE3EA5F3 /* Headers */,
+				E7418B0FDE997E96DD0A0ED5AB81951B /* Sources */,
+				CAD7781F250E7B5B814EA753A89C7969 /* Frameworks */,
+				3A30CEDF6478FD3FA348ABF76B31DF6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TRUNeteorking;
+			productName = TRUNeteorking;
+			productReference = C37922AE6D897E85E41EEC1E1C020767 /* TRUNeteorking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		57C5176666B05A8ED92DC9AF859503C1 /* Pods-YFDemoModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF688CB104FA8F813051DBC831764740 /* Build configuration list for PBXNativeTarget "Pods-YFDemoModule" */;
+			buildPhases = (
+				3B442AE6AF479CAB8D426CB662B01A1C /* Headers */,
+				C1BCE3B7C8161E71C8CF16DEC0CCFE0A /* Sources */,
+				D4C45BF7ECE996983C2CFA1BFEED3841 /* Frameworks */,
+				6846190C23C6E3D8FB880FB9892DF5A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14F31D9B35C6078F6F6C332F506E2A3A /* PBXTargetDependency */,
+				EEF3BA88C69AC73D16973694DF13C6E5 /* PBXTargetDependency */,
+			);
+			name = "Pods-YFDemoModule";
+			productName = "Pods-YFDemoModule";
+			productReference = A4641027C5B90C07CCF585EE525780C2 /* Pods_YFDemoModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		96578A933CBA9F75E3605ED5DA70DC9A /* TRULoging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD881913CC18DC011BE37EF5F5DB0502 /* Build configuration list for PBXNativeTarget "TRULoging" */;
+			buildPhases = (
+				8417AAF15CE3C7BFCC27CDADB8CC99F7 /* Headers */,
+				36CB84114D6882862BC7C6C3BAB845D8 /* Sources */,
+				F4D8809BCF3D85442C977AB531696060 /* Frameworks */,
+				3F929148F8CE4604C4FA8E749B9A62B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FB8508DCBDFE462A3B1B7840F18F218 /* PBXTargetDependency */,
+			);
+			name = TRULoging;
+			productName = TRULoging;
+			productReference = ED2AD63948B5C5B96A0BAA334DFCA779 /* TRULoging.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9838FAB11E6B988DA031B929FF101EC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57C5176666B05A8ED92DC9AF859503C1 /* Pods-YFDemoModule */,
+				96578A933CBA9F75E3605ED5DA70DC9A /* TRULoging */,
+				27759DBAE2DB32B51FE3CFCB62B3E90B /* TRUNeteorking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A30CEDF6478FD3FA348ABF76B31DF6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F929148F8CE4604C4FA8E749B9A62B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6846190C23C6E3D8FB880FB9892DF5A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36CB84114D6882862BC7C6C3BAB845D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D3F738F54113FC07D1A35096C5FBC2D /* ReplaceMe.m in Sources */,
+				204FA113A552E1E1ADE34BF05FC00C77 /* TRULoging-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BCE3B7C8161E71C8CF16DEC0CCFE0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2ABEA029F6C9198EC6750458FEF5F7A /* Pods-YFDemoModule-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7418B0FDE997E96DD0A0ED5AB81951B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85F68F07CF346FC750F6D22D82E018A5 /* TRUNeteorking-dummy.m in Sources */,
+				306A72E7BEB891F8181DD4E0892FA9ED /* TRUNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14F31D9B35C6078F6F6C332F506E2A3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TRULoging;
+			target = 96578A933CBA9F75E3605ED5DA70DC9A /* TRULoging */;
+			targetProxy = 0BF29AB73DF570BED51E6ACB0552888B /* PBXContainerItemProxy */;
+		};
+		5FB8508DCBDFE462A3B1B7840F18F218 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TRUNeteorking;
+			target = 27759DBAE2DB32B51FE3CFCB62B3E90B /* TRUNeteorking */;
+			targetProxy = A147863B2CEA866ADD04F8443999E643 /* PBXContainerItemProxy */;
+		};
+		EEF3BA88C69AC73D16973694DF13C6E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TRUNeteorking;
+			target = 27759DBAE2DB32B51FE3CFCB62B3E90B /* TRUNeteorking */;
+			targetProxy = EA164A8F0874ED26F6F5348FBC41BD0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		24C7BBF36493898796723125E4C94AE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB74986EA6033BA01FCE1F40157484B8 /* Pods-YFDemoModule.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YFDemoModule/Pods-YFDemoModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YFDemoModule/Pods-YFDemoModule.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5F105DE130E7C58EB2BB2D3D56345DEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6592AA03246F0257453E5C0781CFB1E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4F9FB9E594AB4E3ACCDFE4C319DC5D4 /* TRUNeteorking.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TRUNeteorking/TRUNeteorking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TRUNeteorking/TRUNeteorking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TRUNeteorking/TRUNeteorking.modulemap";
+				PRODUCT_MODULE_NAME = TRUNeteorking;
+				PRODUCT_NAME = TRUNeteorking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7E68058EAAC1594C21EBACA9E1A7867F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E0FE3DA5ADA3D11AD926DE3F2F96E13 /* Pods-YFDemoModule.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YFDemoModule/Pods-YFDemoModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YFDemoModule/Pods-YFDemoModule.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A8855CD92A01B17A8F7BDEC68AA40B53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F296AEB5516573774C9958857E0AB1B8 /* TRULoging.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TRULoging/TRULoging-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TRULoging/TRULoging-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TRULoging/TRULoging.modulemap";
+				PRODUCT_MODULE_NAME = TRULoging;
+				PRODUCT_NAME = TRULoging;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB9B38139C5627437C662CCBEFC5D805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		ACA84868617EAC3E8A87460F1D43D81E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8ECFA483C1E565EE36DDD81E10026C4 /* TRULoging.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TRULoging/TRULoging-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TRULoging/TRULoging-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TRULoging/TRULoging.modulemap";
+				PRODUCT_MODULE_NAME = TRULoging;
+				PRODUCT_NAME = TRULoging;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FA22592BA5926D19F6A7CD3D0D68EDA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F783AA27D0773E1630C7C204CF93CC44 /* TRUNeteorking.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TRUNeteorking/TRUNeteorking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TRUNeteorking/TRUNeteorking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TRUNeteorking/TRUNeteorking.modulemap";
+				PRODUCT_MODULE_NAME = TRUNeteorking;
+				PRODUCT_NAME = TRUNeteorking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F105DE130E7C58EB2BB2D3D56345DEF /* Debug */,
+				AB9B38139C5627437C662CCBEFC5D805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CAF74C7CFC0840DB728297C84B9F873 /* Build configuration list for PBXNativeTarget "TRUNeteorking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA22592BA5926D19F6A7CD3D0D68EDA9 /* Debug */,
+				6592AA03246F0257453E5C0781CFB1E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD881913CC18DC011BE37EF5F5DB0502 /* Build configuration list for PBXNativeTarget "TRULoging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA84868617EAC3E8A87460F1D43D81E /* Debug */,
+				A8855CD92A01B17A8F7BDEC68AA40B53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF688CB104FA8F813051DBC831764740 /* Build configuration list for PBXNativeTarget "Pods-YFDemoModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E68058EAAC1594C21EBACA9E1A7867F /* Debug */,
+				24C7BBF36493898796723125E4C94AE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

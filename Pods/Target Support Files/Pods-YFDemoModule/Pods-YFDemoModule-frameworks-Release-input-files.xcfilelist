@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-YFDemoModule/Pods-YFDemoModule-frameworks.sh
+${BUILT_PRODUCTS_DIR}/TRULoging/TRULoging.framework
+${BUILT_PRODUCTS_DIR}/TRUNeteorking/TRUNeteorking.framework

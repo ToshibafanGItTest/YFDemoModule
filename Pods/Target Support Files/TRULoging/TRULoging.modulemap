@@ -1,0 +1,6 @@
+framework module TRULoging {
+  umbrella header "TRULoging-umbrella.h"
+
+  export *
+  module * { export * }
+}
